@@ -1,0 +1,22 @@
+<meta name="google-site-verification" content="ASUQ5TFcMZ5WYjL4qtQ9qIsRGIT1nMyqgteGB9Qd0hA" />
+
+Controles de dominio
+La sección de administración del nombre de dominio para tuw3bsite.com.ve en el sitio web CDmon podría llamarse "Edit DNS" (Editar DNS), "Account Management" (Administración de cuentas), "Advanced Settings" (Configuración avanzada) o algo similar.
+
+Consulta las instrucciones detalladas para el host de tu dominio.
+
+Crea registros MX para G Suite.
+Añade los siguientes registros MX al panel de control de tu dominio para dirigir to correo a tu nueva bandeja de entrada de G Suite Gmail.
+
+Consulta las instrucciones detalladas para el host de tu dominio.
+Prioridad	Nombre | Host | Alias	Valor | Destino
+		
+		
+		
+		
+		
+
+    Si ves el campo TTL (Time To Live), escribe 3600 segundos (1 hora).
+    Puede que tu host no incluya un campo denominado "Name" (Nombre), "Host" o "Alias".
+    Si tu host impone un límite en el número de registros MX que puedes añadir, escribe todos los registros principales que puedas, empezando por el principio de la tabla.
+    Si tu host ofrece una opción para cambiar al correo electrónico de G Suite sin especificar los registros MX, elígela.
